@@ -105,3 +105,16 @@ bash bash tripletConfig_p2.sh
 
 Observe triplets in "pGainOver10" output files for merged and individual triplets. Select those of interest for visualization
 of linear models in R and/or confirmation of significance using permutation test.
+
+#################################################################
+
+--------- STEP 4 ------------
+
+Use "visualize_linear_models.R" to draw graphs of linear models, summarize model fit,  and calculate 
+p-gains for individual triplets. Some editing of Rscript is required
+
+Use "wrapper_for_pgain_test.sh" to run permutation test for individual triplets. You will need correlations and names
+of the metabolites in the triplet. Enter these when prompted.
+
+Command to run:
+bash wrapper_for_pgain_test.sh
